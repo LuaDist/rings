@@ -9,7 +9,7 @@ cmake_minimum_required ( VERSION 2.8 )
 include ( cmake/dist.cmake )
 include ( lua )
 
-install_lua_module ( rings src/rings.c src/rings.def )
+install_lua_module ( rings src/rings.c )
 install_lua_module ( stable src/stable.lua )
 
 install_data ( README )
